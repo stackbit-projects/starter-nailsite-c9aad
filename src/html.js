@@ -7,7 +7,8 @@ export default function HTML(props) {
       <head>
         {props.headComponents}
         <link rel="preconnect" href="https://app.snipcart.com">
-        <link rel="preconnect" href="https://cdn.snipcart.com">      </head>
+        <link rel="preconnect" href="https://cdn.snipcart.com">
+        </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">

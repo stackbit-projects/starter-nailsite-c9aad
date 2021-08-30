@@ -21,6 +21,8 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script async src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></script>
+<div hidden id="snipcart" data-api-key="YOUR_PUBLIC_API_KEY"></div>
       </body>
     </html>
   )

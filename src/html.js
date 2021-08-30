@@ -10,8 +10,8 @@ export default function HTML(props) {
         <link rel="preconnect" href="https://cdn.snipcart.com">
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css" />
         <button class="snipcart-checkout">
-  Cart
-</button>
+          Cart
+        </button>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

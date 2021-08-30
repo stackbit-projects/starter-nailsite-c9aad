@@ -39,8 +39,8 @@ export default class Header extends React.Component {
             				</div>
             			</div>
                                 <button class="snipcart-checkout">
-          Cart
-        </button>
+                                  Cart
+                                </button>
             			<button aria-label="Menu" className="btn btn--icon btn--clear navbar__menu-btn js-nav-toggle ml-auto">
             				<Icon {...this.props} icon={'menu'} />
             				<span className="sr-only">Menu</span>

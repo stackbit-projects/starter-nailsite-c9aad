@@ -22,8 +22,8 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css" />
-<script async src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></script>
-<div id="snipcart" data-config-modal-style="side" data-api-key="MTg5YmRmYjYtZGUyNS00OTNhLWI4ZDctYzBjZDEzZGMwNGQyNjM3NjU5MTE2NjE2ODEwODA2" hidden></div>
+        <script async src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"></script>
+        <div id="snipcart" data-config-modal-style="side" data-api-key="MTg5YmRmYjYtZGUyNS00OTNhLWI4ZDctYzBjZDEzZGMwNGQyNjM3NjU5MTE2NjE2ODEwODA2" hidden></div>
       </body>
     </html>
   )
